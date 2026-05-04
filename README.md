@@ -26,5 +26,10 @@ valor dependendo das cédulas disponíveis.
 onde cada assento pode estar livre, reservado ou vendido. Criei um serviço responsável por gerenciar esses assentos,
 garantindo que só seja possível reservar quando o assento estiver disponível.
 
+### Contador de Carater
+=> Implementei  uma  contagem de frequência de caracteres utilizando um dicionário, onde cada caractere é a (chave e o valor)
+representa quantas vezes ele aparece no texto, verifico se já existe no dicionário.
+Se existir, incremento o contador; caso contrário, adiciono com valor inicial 1.
+
 
 
