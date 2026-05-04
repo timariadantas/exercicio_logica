@@ -1,6 +1,8 @@
 ### Exercícios de Lógica e Estruturas de Dados em C#
 Este repositório contém a implementação de problemas clássicos utilizados em entrevistas técnicas,
 com foco em lógica, manipulação de dados e modelagem simples de domínio.
+Esses exercícios é a nivel de estudos então foi usando (Console.WriteLine) como forma de saída para testar 
+e validar o comportamento da aplicação durante o desenvolvimento, já que se trata de um exercício em ambiente de console.
 
 ### Palindromo 
 => Evitei inverter a string porque em C# strings são imutáveis, então isso criaria uma nova estrutura em memória.
