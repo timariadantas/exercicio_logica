@@ -10,28 +10,31 @@ public class Anagrama
         if (palavra1.Length != palavra2.Length)
             return false;
 
-        Dictionary<char ,int> contador = new Dictionary<char, int>();
+        Dictionary<char, int> contador = new Dictionary<char, int>();
 
         foreach (char c in palavra1)
         {
             if (contador.ContainsKey(c))
                 contador[c]++;
-            else 
+            else
                 contador[c] = 1;
         }
 
         foreach (char c in palavra2)
         {
-            if(!contador.ContainsKey(c))
+            if (!contador.ContainsKey(c))
                 return false;
 
             contador[c]--;
 
-            if(contador[c]< 0)
+            if (contador[c] < 0)
                 return false;
 
         }
         return true;
-        
+
     }
 }
+
+//“Conto as letras da primeira palavra e depois vou tirando com a segunda.
+//Se faltar ou sobrar letra, não é anagrama.”
