@@ -13,7 +13,7 @@ public class Palindromo
         {
             if (palavra[inicioPalavra] != palavra[fimPalavra])
             {
-                Console.Write("Essa palavra não é um palindromo.");
+                Console.Write("Essa palavra não é um palindromo.\n");
                 return false;
                 
             }
@@ -22,7 +22,7 @@ public class Palindromo
             fimPalavra--;
             
         }
-        Console.Write("Essa palavra é um palindromo");
+        Console.Write("Essa palavra é um palindromo\n ");
         return true;
     }
 }
